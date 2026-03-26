@@ -4824,6 +4824,98 @@
         });
     </script>
 
+    <style>
+        /* Custom Toastify Styles */
+        .toast-content {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .toast-icon {
+            font-size: 24px;
+            flex-shrink: 0;
+        }
+
+        .toast-text {
+            flex: 1;
+        }
+
+        .toast-title {
+            font-weight: bold;
+            margin-bottom: 4px;
+            font-size: 16px;
+        }
+
+        .toast-message {
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        #IMAGE761 {
+            width: 420px;
+            height: 380.114px;
+            top: 1842px;
+        }
+
+        #IMAGE761>.ladi-image>.ladi-image-background {
+            width: 420px;
+            height: 399px;
+            background-image: url("https://w.ladicdn.com/s750x700/5ebf76b51e398e6f1670261b/wedding-day-5-20250305033639-ua48c.png");
+        }
+
+        #IMAGE761>.ladi-image>.ladi-image-background {
+            top: 0px;
+            left: 0px;
+        }
+    </style>
+
+    <style>
+        /* Custom Toastify Styles */
+        .toast-content {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .toast-icon {
+            font-size: 24px;
+            flex-shrink: 0;
+        }
+
+        .toast-text {
+            flex: 1;
+        }
+
+        .toast-title {
+            font-weight: bold;
+            margin-bottom: 4px;
+            font-size: 16px;
+        }
+
+        .toast-message {
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        #IMAGE761 {
+            width: 420px;
+            height: 380.114px;
+            top: 1842px;
+        }
+
+        #IMAGE761>.ladi-image>.ladi-image-background {
+            width: 420px;
+            height: 399px;
+            background-image: url("https://w.ladicdn.com/s750x700/5ebf76b51e398e6f1670261b/wedding-day-5-20250305033639-ua48c.png");
+        }
+
+        #IMAGE761>.ladi-image>.ladi-image-background {
+            top: 0px;
+            left: 0px;
+        }
+    </style>
+
     <!-- <script>
         document.addEventListener("keydown", function (e) {
             // F12
@@ -5460,7 +5552,7 @@
                                 <div class="ladi-image-background"></div>
                             </div>
                         </div>
-                        <div data-action="true" id="GROUP28" class="ladi-element">
+                        <!-- <div data-action="true" id="GROUP28" class="ladi-element">
                             <div class="ladi-group">
                                 <div id="GROUP29" class="ladi-element">
                                     <div class="ladi-group">
@@ -5473,14 +5565,14 @@
                                                     <h3 class="ladi-headline ladi-transition">&gt;&gt;</h3>
                                                 </div>
                                                 <div id="HEADLINE66" class="ladi-element">
-                                                    <h3 class="ladi-headline ladi-transition">Hiện thị thêm ảnh</h3>
+                                                    <h3 class="ladi-headline ladi-transition">Hiển thị thêm ảnh</h3>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <div id="GROUP31" class="ladi-element">
                             <div class="ladi-group">
                                 <div id="PARAGRAPH28" class="ladi-element">
@@ -5519,8 +5611,8 @@
                     <div class="ladi-paragraph">Sự hiện diện của quý vị là niềm vinh hạnh cho gia đình chúng tôi.</div>
                 </div>
                 <div id="PARAGRAPH27" class="ladi-element">
-                    <div class="ladi-paragraph">Quang&nbsp; &nbsp;Chiều&nbsp; &nbsp;&amp;&nbsp; &nbsp;Như&nbsp;
-                        &nbsp;Quỳnh</div>
+                    <div class="ladi-paragraph">Đức&nbsp; &nbsp;Kiên&nbsp; &nbsp;&amp;&nbsp; &nbsp;Nguyễn&nbsp;
+                        &nbsp;Thơm</div>
                 </div>
             </div>
         </div>
@@ -5571,8 +5663,9 @@
                                             <div class="ladi-paragraph">Cảm ơn tất cả tình cảm mà mọi người đã dành cho
                                                 chúng mình</div>
                                         </div>
-                                        <div id="FORM7" data-config-id="67f77854a39c1d0011103571" class="ladi-element">
-                                            <form autocomplete="off" method="post" class="ladi-form">
+                                        <div id="FORM7" class="ladi-element">
+                                            <form id="form-thiep-moi" autocomplete="off" method="post"
+                                                class="ladi-form">
                                                 <div id="BUTTON7" class="ladi-element">
                                                     <div class="ladi-button">
                                                         <div class="ladi-button-background"></div>
@@ -5586,7 +5679,7 @@
                                                     <div class="ladi-form-item-container">
                                                         <div class="ladi-form-item-background"></div>
                                                         <div class="ladi-form-item"><input autocomplete="off"
-                                                                tabindex="1" name="name" required
+                                                                tabindex="1" name="form_item13" required
                                                                 class="ladi-form-control" type="text"
                                                                 placeholder="Họ và Tên" value="" /></div>
                                                     </div>
@@ -5595,7 +5688,7 @@
                                                     <div class="ladi-form-item-container">
                                                         <div class="ladi-form-item-background"></div>
                                                         <div class="ladi-form-item"><textarea autocomplete="off"
-                                                                tabindex="4" name="message" required
+                                                                tabindex="4" name="form_item15" required
                                                                 class="ladi-form-control"
                                                                 placeholder="Nhập lời chúc của bạn:"></textarea></div>
                                                     </div>
@@ -5604,7 +5697,7 @@
                                                     <div class="ladi-form-item-container">
                                                         <div class="ladi-form-item-background"></div>
                                                         <div class="ladi-form-item">
-                                                            <select tabindex="3" name="form_item6"
+                                                            <select tabindex="3" name="form_item14"
                                                                 class="ladi-form-control ladi-form-control-select"
                                                                 data-selected="">
                                                                 <option value="">Bạn Cô Dâu</option>
@@ -5619,7 +5712,7 @@
                                                     <div class="ladi-form-item-container">
                                                         <div class="ladi-form-item-background"></div>
                                                         <div class="ladi-form-item">
-                                                            <select tabindex="4" name=""
+                                                            <select tabindex="4" name="form_item17"
                                                                 class="ladi-form-control ladi-form-control-select"
                                                                 data-selected="">
                                                                 <option value="">Xác nhận tham dự</option>
@@ -6345,7 +6438,7 @@
                 "FORM7": {
                     "option.dynamic_form_config": "&#123;&#34;configs&#34;:[],&#34;default_actions&#34;:[&#123;&#34;text_thankyou_value&#34;:&#34;Cảm ơn bạn đã quan tâm!&#34;,&#34;type&#34;:&#34;form_open_popup&#34;,&#34;no_delete&#34;:true,&#34;redirect_url&#34;:&#34;http://www.lovecard.click/thank_you&#34;,&#34;id_open_popup&#34;:&#34;loichuc&#34;&#125;]&#125;",
                     "a": "form",
-                    "bP": "67f77854a39c1d0011103571",
+                    "bP": "67f77854a39c1d001110357111",
                     "bM": true,
                     "by": true,
                     "bx": true
@@ -6368,7 +6461,7 @@
                     return;
                 }
                 window.LadiPageApp = window.LadiPageApp || new window.LadiPageAppV2();
-                window.LadiPageScript.runtime.ladipage_id = "67a24ad8dc936a0012693ea611";
+                window.LadiPageScript.runtime.ladipage_id = "67a24ad8dc936a0012693ea6111";
                 window.LadiPageScript.runtime.publish_platform = "LADIPAGEDNS";
                 window.LadiPageScript.runtime.is_mobile_only = true;
                 window.LadiPageScript.runtime.version = "1747991160103";
@@ -6392,6 +6485,192 @@
             };
             run();
         })();
+    </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script>
+        window.addEventListener("load", function () {
+            const link = document.createElement("link");
+            link.rel = "stylesheet";
+            link.type = "text/css";
+            link.href = "https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css";
+            document.head.appendChild(link);
+        });
+    </script>
+    <script>
+
+
+        const sheetID = '1R126tdq3HTH5JZCnEBUP0ikaD1K8X4AEvllB5pHZyrw';
+        const url = `https://docs.google.com/spreadsheets/d/${sheetID}/gviz/tq?tqx=out:json`;
+
+        let messages = []; // Chuyển sang `let`
+
+        // Cấu hình
+        const config = {
+            displayDuration: 4000,
+            intervalTime: 10000
+        };
+
+        let autoInterval;
+
+        // Tạo toast notification
+        function createToast(messageData) {
+            const toastContent = `
+        <div class="toast-content">
+            <div class="toast-icon">
+                <img src="https://w.ladicdn.com/source/notify.svg?v=1.0" alt="Icon" />
+            </div>
+            <div class="toast-text">
+                <div style="margin-bottom: 10px;" class="toast-title">${messageData['Tên']}</div>
+                <div class="toast-message">${messageData['Lời chúc']}</div>
+            </div>
+        </div>
+    `;
+
+            Toastify({
+                text: toastContent,
+                duration: config.displayDuration,
+                gravity: "top",
+                position: "center",
+                stopOnFocus: true,
+                style: {
+                    background: 'white',
+                    color: "#333",
+                    borderRadius: "12px",
+                    padding: "20px",
+                    minWidth: "350px",
+                    maxWidth: "400px",
+                    width: '80%',
+                    boxShadow: "0 8px 25px rgba(0,0,0,0.15)",
+                    fontSize: "14px"
+                },
+                escapeMarkup: false
+            }).showToast();
+        }
+
+        // Hiển thị toast ngẫu nhiên
+        function showRandomToast() {
+            if (!messages.length) return;
+            const randomIndex = Math.floor(Math.random() * messages.length);
+            const messageData = messages[randomIndex];
+            createToast(messageData);
+        }
+
+        // Bắt đầu auto show
+        function startAutoShow() {
+            showRandomToast();
+            autoInterval = setInterval(showRandomToast, config.intervalTime);
+            console.log('🚀 Auto notification đã bắt đầu');
+        }
+
+        // Load dữ liệu từ Google Sheets
+        async function fetchMessages() {
+            try {
+                const res = await fetch(url);
+                const data = await res.text();
+                const json = JSON.parse(data.substring(47).slice(0, -2));
+                const rows = json.table.rows.map(row => row.c.map(cell => cell?.v || ""));
+                const headers = rows[0];
+
+                messages = rows.slice(1).map(row => {
+                    let obj = {};
+                    headers.forEach((key, i) => {
+                        obj[key] = row[i];
+                    });
+                    return obj;
+                });
+
+                console.log("📥 Fetched messages:", messages);
+                startAutoShow(); // ✅ Chỉ gọi khi đã có dữ liệu
+
+            } catch (err) {
+                console.error("❌ Lỗi khi lấy dữ liệu:", err);
+            }
+        }
+
+        // Khởi tạo khi load trang
+        window.addEventListener('load', () => {
+            console.log('🎉 Trang đã load xong');
+            fetchMessages();
+        });
+
+        function updateCountdown(targetDateStr) {
+            // targetDateStr: "YYYY-MM-DD HH:mm:ss" hoặc "YYYY-MM-DD"
+            const targetDate = new Date(targetDateStr);
+            const now = new Date();
+            let diff = targetDate - now;
+
+            // Nếu đã qua ngày thì hiển thị 0 hết
+            if (diff < 0) diff = 0;
+
+            let days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            let hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+            let minutes = Math.floor((diff / (1000 * 60)) % 60);
+            let seconds = Math.floor((diff / 1000) % 60);
+
+            // Hiển thị lên các phần tử
+            const elDay = document.querySelector('#COUNTDOWN_ITEM9 .ladi-countdown-text span');
+            const elHour = document.querySelector('#COUNTDOWN_ITEM10 .ladi-countdown-text span');
+            const elMinute = document.querySelector('#COUNTDOWN_ITEM11 .ladi-countdown-text span');
+            const elSecond = document.querySelector('#COUNTDOWN_ITEM12 .ladi-countdown-text span');
+
+            if (elDay) elDay.textContent = days.toString().padStart(2, '0');
+            if (elHour) elHour.textContent = hours.toString().padStart(2, '0');
+            if (elMinute) elMinute.textContent = minutes.toString().padStart(2, '0');
+            if (elSecond) elSecond.textContent = seconds.toString().padStart(2, '0');
+        }
+
+        // Ví dụ: Đếm ngược đến ngày 2025-10-19
+        // setInterval(function () {
+        //     updateCountdown('2026-10-19 07:00:00');
+        // }, 1000);
+
+    </script>
+    <script>
+        const GOOGLE_SCRIPT_URL_THAM_DU = "https://script.google.com/macros/s/AKfycbzdEzdg_NXoLNwDl6cbFo2nRBGz5TqYH1zsDjfKSsOJ459Ul4vVl6SwNX6jDXHhT5fS/exec"
+        document.querySelector('#form-thiep-moi').addEventListener('submit', function (e) {
+            e.preventDefault();
+            const form = e.target; // Lấy form để reset sau này
+            const formData = new FormData(form);
+            let selected14 = formData.getAll("form_item14");
+            let selected17 = formData.getAll("form_item17");
+
+            const data = {
+                form_item13: "'" + form.form_item13.value,
+                form_item14: selected14.join(", "),
+                form_item15: "'" + form.form_item15.value,
+                form_item17: selected17.join(", "),
+            };
+
+            fetch(GOOGLE_SCRIPT_URL_THAM_DU, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/x-www-form-urlencoded"
+                },
+                body: JSON.stringify(data)
+            })
+                .then(res => res.json()) // Nếu Apps Script trả về JSON
+                .then(res => { })
+        });
+        window.addEventListener('DOMContentLoaded', function () {
+            // Lấy tham số name từ URL
+            const params = new URLSearchParams(window.location.search);
+            const name = params.get('name');
+            // Hiển thị vào div PARAGRAPH94 nếu có giá trị
+            if (name) {
+                const el = document.querySelector('#PARAGRAPH94 .ladi-paragraph');
+                if (el) el.textContent = name;
+            }
+        });
+        window.addEventListener('DOMContentLoaded', () => {
+            const meta = document.querySelector('meta[property="og:url"]');
+            if (meta) {
+                meta.setAttribute("content", window.location.href);
+            }
+            const canonical = document.querySelector('link[rel="canonical"]');
+            if (canonical) {
+                canonical.setAttribute('href', window.location.href);
+            }
+        });
     </script>
 </body>
 
